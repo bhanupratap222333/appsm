@@ -1,0 +1,15 @@
+Load environment configuration
+mkdir: created directory '/appsmith-stacks/git-storage'
+2024-05-22T19:05:56.496 server info: ===================================================================
+2024-05-22T19:05:56.500 server info: server[server] accepting requests from all clients
+2024-05-22T19:05:56.504 server info: server[server] now listening SCIM 2.0 on port 8886...
+
+RTS version v1.25 running at http://localhost:8091
+HealthService::checkTemporalHealth::error::Facing trouble connecting to Temporal server. Error:  Failed to connect before the deadline
+healthResponse {
+  "success": false,
+  "message": "Facing trouble connecting to Temporal server",
+  "data": "Failed to connect before the deadline"
+}
+time 2024-05-22T19:06:07.262Z
+Temporal is NOT RUNNING. Please check the Temporal server.

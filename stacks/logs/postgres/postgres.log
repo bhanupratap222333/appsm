@@ -1,0 +1,8 @@
+2024-05-22 19:05:55.514 UTC [1814] LOG:  starting PostgreSQL 13.15 (Ubuntu 13.15-1.pgdg20.04+1) on x86_64-pc-linux-gnu, compiled by gcc (Ubuntu 9.4.0-1ubuntu1~20.04.2) 9.4.0, 64-bit
+2024-05-22 19:05:55.514 UTC [1814] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2024-05-22 19:05:55.523 UTC [1814] LOG:  listening on Unix socket "/tmp/appsmith/pg-runtime/.s.PGSQL.5432"
+2024-05-22 19:05:55.560 UTC [1951] LOG:  database system was shut down at 2024-05-22 19:05:51 UTC
+2024-05-22 19:05:55.603 UTC [1814] LOG:  database system is ready to accept connections
+2024-05-22 19:05:56.573 UTC [2027] FATAL:  role "root" does not exist
+2024-05-22 19:05:56.900 UTC [2044] FATAL:  database "appsmith" does not exist
+2024-05-22 19:05:57.028 UTC [2047] FATAL:  database "appsmith" does not exist

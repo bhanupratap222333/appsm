@@ -1,0 +1,4 @@
+services:
+  - name: appsmith
+    dockerfile: Dockerfile
+    env: docker-compose up -d
