@@ -13,3 +13,6 @@ healthResponse {
 }
 time 2024-05-22T19:06:07.262Z
 Temporal is NOT RUNNING. Please check the Temporal server.
+2024-05-22T19:16:46.696 server debug: server[server] received terminate/kill signal - closing connections and exit
+2024-05-22T19:16:46.734 server info: server[server] pheww... 0 requests have been processed in the period 2024-05-22T19:05:56.446 - 2024-05-22T19:16:46.733
+

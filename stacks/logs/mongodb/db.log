@@ -751,3 +751,89 @@
 {"t":{"$date":"2024-05-22T19:12:13.736+00:00"},"s":"I",  "c":"STORAGE",  "id":6776600, "ctx":"TimestampMonitor","msg":"The ident was successfully dropped","attr":{"ident":"index-156--3861322208505308632","dropTimestamp":{"$timestamp":{"t":1716404828,"i":72}}}}
 {"t":{"$date":"2024-05-22T19:12:33.066+00:00"},"s":"I",  "c":"STORAGE",  "id":22430,   "ctx":"Checkpointer","msg":"WiredTiger message","attr":{"message":"[1716405153:66111][1818:0x7fe278cdf700], WT_SESSION.checkpoint: [WT_VERB_CHECKPOINT_PROGRESS] saving checkpoint snapshot min: 1503, snapshot max: 1503 snapshot count: 0, oldest timestamp: (1716404843, 1) , meta checkpoint timestamp: (1716405143, 1) base write gen: 33"}}
 {"t":{"$date":"2024-05-22T19:13:33.114+00:00"},"s":"I",  "c":"STORAGE",  "id":22430,   "ctx":"Checkpointer","msg":"WiredTiger message","attr":{"message":"[1716405213:114404][1818:0x7fe278cdf700], WT_SESSION.checkpoint: [WT_VERB_CHECKPOINT_PROGRESS] saving checkpoint snapshot min: 1518, snapshot max: 1518 snapshot count: 0, oldest timestamp: (1716404903, 1) , meta checkpoint timestamp: (1716405203, 1) base write gen: 33"}}
+{"t":{"$date":"2024-05-22T19:14:33.173+00:00"},"s":"I",  "c":"STORAGE",  "id":22430,   "ctx":"Checkpointer","msg":"WiredTiger message","attr":{"message":"[1716405273:173285][1818:0x7fe278cdf700], WT_SESSION.checkpoint: [WT_VERB_CHECKPOINT_PROGRESS] saving checkpoint snapshot min: 1533, snapshot max: 1533 snapshot count: 0, oldest timestamp: (1716404963, 1) , meta checkpoint timestamp: (1716405263, 1) base write gen: 33"}}
+{"t":{"$date":"2024-05-22T19:15:33.253+00:00"},"s":"I",  "c":"STORAGE",  "id":22430,   "ctx":"Checkpointer","msg":"WiredTiger message","attr":{"message":"[1716405333:253213][1818:0x7fe278cdf700], WT_SESSION.checkpoint: [WT_VERB_CHECKPOINT_PROGRESS] saving checkpoint snapshot min: 1548, snapshot max: 1548 snapshot count: 0, oldest timestamp: (1716405023, 1) , meta checkpoint timestamp: (1716405323, 1) base write gen: 33"}}
+{"t":{"$date":"2024-05-22T19:16:33.308+00:00"},"s":"I",  "c":"STORAGE",  "id":22430,   "ctx":"Checkpointer","msg":"WiredTiger message","attr":{"message":"[1716405393:307999][1818:0x7fe278cdf700], WT_SESSION.checkpoint: [WT_VERB_CHECKPOINT_PROGRESS] saving checkpoint snapshot min: 1563, snapshot max: 1563 snapshot count: 0, oldest timestamp: (1716405083, 1) , meta checkpoint timestamp: (1716405383, 1) base write gen: 33"}}
+{"t":{"$date":"2024-05-22T19:16:40.702+00:00"},"s":"I",  "c":"NETWORK",  "id":22944,   "ctx":"conn11","msg":"Connection ended","attr":{"remote":"127.0.0.1:41160","uuid":"a093354c-3fe5-4b5d-aa64-4fe2430fb099","connectionId":11,"connectionCount":8}}
+{"t":{"$date":"2024-05-22T19:16:40.703+00:00"},"s":"I",  "c":"-",        "id":20883,   "ctx":"conn8","msg":"Interrupted operation as its client disconnected","attr":{"opId":10299}}
+{"t":{"$date":"2024-05-22T19:16:40.712+00:00"},"s":"I",  "c":"NETWORK",  "id":22944,   "ctx":"conn7","msg":"Connection ended","attr":{"remote":"127.0.0.1:36714","uuid":"e060777d-fa69-4f12-b22c-701dc0201cbe","connectionId":7,"connectionCount":7}}
+{"t":{"$date":"2024-05-22T19:16:40.719+00:00"},"s":"I",  "c":"NETWORK",  "id":22944,   "ctx":"conn8","msg":"Connection ended","attr":{"remote":"127.0.0.1:36718","uuid":"d2169fe8-cbae-4839-a312-ae5a9b85b845","connectionId":8,"connectionCount":6}}
+{"t":{"$date":"2024-05-22T19:16:41.065+00:00"},"s":"I",  "c":"NETWORK",  "id":22944,   "ctx":"conn37","msg":"Connection ended","attr":{"remote":"127.0.0.1:56724","uuid":"88a768a3-0ede-4bef-a309-b4d62a9e04f8","connectionId":37,"connectionCount":5}}
+{"t":{"$date":"2024-05-22T19:16:41.066+00:00"},"s":"I",  "c":"NETWORK",  "id":22944,   "ctx":"conn36","msg":"Connection ended","attr":{"remote":"127.0.0.1:43942","uuid":"30306500-5dd7-42ca-b1d1-c6a357372f63","connectionId":36,"connectionCount":4}}
+{"t":{"$date":"2024-05-22T19:16:41.067+00:00"},"s":"I",  "c":"NETWORK",  "id":22944,   "ctx":"conn35","msg":"Connection ended","attr":{"remote":"127.0.0.1:43936","uuid":"74f434da-5186-4feb-9031-dd9063fbe34e","connectionId":35,"connectionCount":1}}
+{"t":{"$date":"2024-05-22T19:16:41.067+00:00"},"s":"I",  "c":"NETWORK",  "id":22944,   "ctx":"conn34","msg":"Connection ended","attr":{"remote":"127.0.0.1:57982","uuid":"ffb93b19-9454-4636-93c9-56f598df8fc7","connectionId":34,"connectionCount":3}}
+{"t":{"$date":"2024-05-22T19:16:41.067+00:00"},"s":"I",  "c":"NETWORK",  "id":22944,   "ctx":"conn9","msg":"Connection ended","attr":{"remote":"127.0.0.1:51196","uuid":"952a6100-6a9a-456b-a114-c411af5bf405","connectionId":9,"connectionCount":2}}
+{"t":{"$date":"2024-05-22T19:16:41.066+00:00"},"s":"I",  "c":"-",        "id":20883,   "ctx":"conn10","msg":"Interrupted operation as its client disconnected","attr":{"opId":10193}}
+{"t":{"$date":"2024-05-22T19:16:41.068+00:00"},"s":"I",  "c":"NETWORK",  "id":22944,   "ctx":"conn10","msg":"Connection ended","attr":{"remote":"127.0.0.1:51198","uuid":"a5ed1798-6ddf-4170-9802-791a3156b11b","connectionId":10,"connectionCount":0}}
+{"t":{"$date":"2024-05-22T19:16:49.443+00:00"},"s":"I",  "c":"CONTROL",  "id":23377,   "ctx":"SignalHandler","msg":"Received signal","attr":{"signal":15,"error":"Terminated"}}
+{"t":{"$date":"2024-05-22T19:16:49.444+00:00"},"s":"I",  "c":"CONTROL",  "id":23378,   "ctx":"SignalHandler","msg":"Signal was sent by kill(2)","attr":{"pid":1,"uid":0}}
+{"t":{"$date":"2024-05-22T19:16:49.446+00:00"},"s":"I",  "c":"CONTROL",  "id":23381,   "ctx":"SignalHandler","msg":"will terminate after current cmd ends"}
+{"t":{"$date":"2024-05-22T19:16:49.450+00:00"},"s":"I",  "c":"REPL",     "id":4784900, "ctx":"SignalHandler","msg":"Stepping down the ReplicationCoordinator for shutdown","attr":{"waitTimeMillis":15000}}
+{"t":{"$date":"2024-05-22T19:16:49.451+00:00"},"s":"I",  "c":"REPL",     "id":4794602, "ctx":"SignalHandler","msg":"Attempting to enter quiesce mode"}
+{"t":{"$date":"2024-05-22T19:16:49.452+00:00"},"s":"I",  "c":"COMMAND",  "id":4784901, "ctx":"SignalHandler","msg":"Shutting down the MirrorMaestro"}
+{"t":{"$date":"2024-05-22T19:16:49.452+00:00"},"s":"I",  "c":"REPL",     "id":40441,   "ctx":"SignalHandler","msg":"Stopping TopologyVersionObserver"}
+{"t":{"$date":"2024-05-22T19:16:49.466+00:00"},"s":"I",  "c":"REPL",     "id":40447,   "ctx":"TopologyVersionObserver","msg":"Stopped TopologyVersionObserver"}
+{"t":{"$date":"2024-05-22T19:16:49.469+00:00"},"s":"I",  "c":"SHARDING", "id":4784902, "ctx":"SignalHandler","msg":"Shutting down the WaitForMajorityService"}
+{"t":{"$date":"2024-05-22T19:16:49.473+00:00"},"s":"I",  "c":"CONTROL",  "id":4784903, "ctx":"SignalHandler","msg":"Shutting down the LogicalSessionCache"}
+{"t":{"$date":"2024-05-22T19:16:49.474+00:00"},"s":"I",  "c":"NETWORK",  "id":20562,   "ctx":"SignalHandler","msg":"Shutdown: going to close listening sockets"}
+{"t":{"$date":"2024-05-22T19:16:49.476+00:00"},"s":"I",  "c":"NETWORK",  "id":23017,   "ctx":"listener","msg":"removing socket file","attr":{"path":"/tmp/mongodb-27017.sock"}}
+{"t":{"$date":"2024-05-22T19:16:49.476+00:00"},"s":"I",  "c":"NETWORK",  "id":4784905, "ctx":"SignalHandler","msg":"Shutting down the global connection pool"}
+{"t":{"$date":"2024-05-22T19:16:49.477+00:00"},"s":"I",  "c":"CONTROL",  "id":4784906, "ctx":"SignalHandler","msg":"Shutting down the FlowControlTicketholder"}
+{"t":{"$date":"2024-05-22T19:16:49.478+00:00"},"s":"I",  "c":"-",        "id":20520,   "ctx":"SignalHandler","msg":"Stopping further Flow Control ticket acquisitions."}
+{"t":{"$date":"2024-05-22T19:16:49.478+00:00"},"s":"I",  "c":"REPL",     "id":4784907, "ctx":"SignalHandler","msg":"Shutting down the replica set node executor"}
+{"t":{"$date":"2024-05-22T19:16:49.481+00:00"},"s":"I",  "c":"ASIO",     "id":22582,   "ctx":"ReplNodeDbWorkerNetwork","msg":"Killing all outstanding egress activity."}
+{"t":{"$date":"2024-05-22T19:16:49.482+00:00"},"s":"I",  "c":"CONTROL",  "id":4784908, "ctx":"SignalHandler","msg":"Shutting down the PeriodicThreadToAbortExpiredTransactions"}
+{"t":{"$date":"2024-05-22T19:16:49.484+00:00"},"s":"I",  "c":"REPL",     "id":4784909, "ctx":"SignalHandler","msg":"Shutting down the ReplicationCoordinator"}
+{"t":{"$date":"2024-05-22T19:16:49.485+00:00"},"s":"I",  "c":"REPL",     "id":5074000, "ctx":"SignalHandler","msg":"Shutting down the replica set aware services."}
+{"t":{"$date":"2024-05-22T19:16:49.487+00:00"},"s":"I",  "c":"REPL",     "id":5123006, "ctx":"SignalHandler","msg":"Shutting down PrimaryOnlyService","attr":{"service":"TenantMigrationRecipientService","numInstances":0,"numOperationContexts":0}}
+{"t":{"$date":"2024-05-22T19:16:49.494+00:00"},"s":"I",  "c":"ASIO",     "id":22582,   "ctx":"TenantMigrationRecipientServiceNetwork","msg":"Killing all outstanding egress activity."}
+{"t":{"$date":"2024-05-22T19:16:49.496+00:00"},"s":"I",  "c":"REPL",     "id":5123006, "ctx":"SignalHandler","msg":"Shutting down PrimaryOnlyService","attr":{"service":"TenantMigrationDonorService","numInstances":0,"numOperationContexts":0}}
+{"t":{"$date":"2024-05-22T19:16:49.497+00:00"},"s":"I",  "c":"ASIO",     "id":22582,   "ctx":"TenantMigrationDonorServiceNetwork","msg":"Killing all outstanding egress activity."}
+{"t":{"$date":"2024-05-22T19:16:49.498+00:00"},"s":"I",  "c":"REPL",     "id":21328,   "ctx":"SignalHandler","msg":"Shutting down replication subsystems"}
+{"t":{"$date":"2024-05-22T19:16:49.499+00:00"},"s":"I",  "c":"REPL",     "id":21302,   "ctx":"SignalHandler","msg":"Stopping replication reporter thread"}
+{"t":{"$date":"2024-05-22T19:16:49.500+00:00"},"s":"I",  "c":"REPL",     "id":21303,   "ctx":"SignalHandler","msg":"Stopping replication fetcher thread"}
+{"t":{"$date":"2024-05-22T19:16:49.501+00:00"},"s":"I",  "c":"REPL",     "id":21304,   "ctx":"SignalHandler","msg":"Stopping replication applier thread"}
+{"t":{"$date":"2024-05-22T19:16:49.501+00:00"},"s":"I",  "c":"REPL",     "id":21107,   "ctx":"BackgroundSync","msg":"Stopping replication producer"}
+{"t":{"$date":"2024-05-22T19:16:49.578+00:00"},"s":"I",  "c":"REPL",     "id":21225,   "ctx":"OplogApplier-0","msg":"Finished oplog application"}
+{"t":{"$date":"2024-05-22T19:16:49.579+00:00"},"s":"I",  "c":"REPL",     "id":5698300, "ctx":"SignalHandler","msg":"Stopping replication applier writer pool"}
+{"t":{"$date":"2024-05-22T19:16:49.579+00:00"},"s":"I",  "c":"REPL",     "id":21307,   "ctx":"SignalHandler","msg":"Stopping replication storage threads"}
+{"t":{"$date":"2024-05-22T19:16:49.580+00:00"},"s":"I",  "c":"ASIO",     "id":22582,   "ctx":"OplogApplierNetwork","msg":"Killing all outstanding egress activity."}
+{"t":{"$date":"2024-05-22T19:16:49.582+00:00"},"s":"I",  "c":"ASIO",     "id":22582,   "ctx":"SignalHandler","msg":"Killing all outstanding egress activity."}
+{"t":{"$date":"2024-05-22T19:16:49.585+00:00"},"s":"I",  "c":"ASIO",     "id":22582,   "ctx":"ReplCoordExternNetwork","msg":"Killing all outstanding egress activity."}
+{"t":{"$date":"2024-05-22T19:16:49.590+00:00"},"s":"I",  "c":"ASIO",     "id":22582,   "ctx":"ReplNetwork","msg":"Killing all outstanding egress activity."}
+{"t":{"$date":"2024-05-22T19:16:49.591+00:00"},"s":"I",  "c":"SHARDING", "id":4784910, "ctx":"SignalHandler","msg":"Shutting down the ShardingInitializationMongoD"}
+{"t":{"$date":"2024-05-22T19:16:49.592+00:00"},"s":"I",  "c":"REPL",     "id":4784911, "ctx":"SignalHandler","msg":"Enqueuing the ReplicationStateTransitionLock for shutdown"}
+{"t":{"$date":"2024-05-22T19:16:49.592+00:00"},"s":"I",  "c":"-",        "id":4784912, "ctx":"SignalHandler","msg":"Killing all operations for shutdown"}
+{"t":{"$date":"2024-05-22T19:16:49.592+00:00"},"s":"I",  "c":"-",        "id":4695300, "ctx":"SignalHandler","msg":"Interrupted all currently running operations","attr":{"opsKilled":5}}
+{"t":{"$date":"2024-05-22T19:16:49.592+00:00"},"s":"I",  "c":"TENANT_M", "id":5093807, "ctx":"SignalHandler","msg":"Shutting down all TenantMigrationAccessBlockers on global shutdown"}
+{"t":{"$date":"2024-05-22T19:16:49.592+00:00"},"s":"I",  "c":"COMMAND",  "id":4784913, "ctx":"SignalHandler","msg":"Shutting down all open transactions"}
+{"t":{"$date":"2024-05-22T19:16:49.593+00:00"},"s":"I",  "c":"REPL",     "id":4784914, "ctx":"SignalHandler","msg":"Acquiring the ReplicationStateTransitionLock for shutdown"}
+{"t":{"$date":"2024-05-22T19:16:49.593+00:00"},"s":"I",  "c":"INDEX",    "id":4784915, "ctx":"SignalHandler","msg":"Shutting down the IndexBuildsCoordinator"}
+{"t":{"$date":"2024-05-22T19:16:49.595+00:00"},"s":"I",  "c":"REPL",     "id":4784916, "ctx":"SignalHandler","msg":"Reacquiring the ReplicationStateTransitionLock for shutdown"}
+{"t":{"$date":"2024-05-22T19:16:49.596+00:00"},"s":"I",  "c":"REPL",     "id":4784917, "ctx":"SignalHandler","msg":"Attempting to mark clean shutdown"}
+{"t":{"$date":"2024-05-22T19:16:49.599+00:00"},"s":"I",  "c":"NETWORK",  "id":4784918, "ctx":"SignalHandler","msg":"Shutting down the ReplicaSetMonitor"}
+{"t":{"$date":"2024-05-22T19:16:49.600+00:00"},"s":"I",  "c":"REPL",     "id":4784920, "ctx":"SignalHandler","msg":"Shutting down the LogicalTimeValidator"}
+{"t":{"$date":"2024-05-22T19:16:49.600+00:00"},"s":"I",  "c":"SHARDING", "id":4784921, "ctx":"SignalHandler","msg":"Shutting down the MigrationUtilExecutor"}
+{"t":{"$date":"2024-05-22T19:16:49.602+00:00"},"s":"I",  "c":"ASIO",     "id":22582,   "ctx":"MigrationUtil-TaskExecutor","msg":"Killing all outstanding egress activity."}
+{"t":{"$date":"2024-05-22T19:16:49.604+00:00"},"s":"I",  "c":"COMMAND",  "id":4784923, "ctx":"SignalHandler","msg":"Shutting down the ServiceEntryPoint"}
+{"t":{"$date":"2024-05-22T19:16:49.606+00:00"},"s":"I",  "c":"CONTROL",  "id":4784927, "ctx":"SignalHandler","msg":"Shutting down the HealthLog"}
+{"t":{"$date":"2024-05-22T19:16:49.607+00:00"},"s":"I",  "c":"CONTROL",  "id":4784928, "ctx":"SignalHandler","msg":"Shutting down the TTL monitor"}
+{"t":{"$date":"2024-05-22T19:16:49.607+00:00"},"s":"I",  "c":"INDEX",    "id":3684100, "ctx":"SignalHandler","msg":"Shutting down TTL collection monitor thread"}
+{"t":{"$date":"2024-05-22T19:16:49.609+00:00"},"s":"I",  "c":"INDEX",    "id":3684101, "ctx":"SignalHandler","msg":"Finished shutting down TTL collection monitor thread"}
+{"t":{"$date":"2024-05-22T19:16:49.609+00:00"},"s":"I",  "c":"CONTROL",  "id":4784929, "ctx":"SignalHandler","msg":"Acquiring the global lock for shutdown"}
+{"t":{"$date":"2024-05-22T19:16:49.609+00:00"},"s":"I",  "c":"CONTROL",  "id":4784930, "ctx":"SignalHandler","msg":"Shutting down the storage engine"}
+{"t":{"$date":"2024-05-22T19:16:49.610+00:00"},"s":"I",  "c":"STORAGE",  "id":22320,   "ctx":"SignalHandler","msg":"Shutting down journal flusher thread"}
+{"t":{"$date":"2024-05-22T19:16:49.611+00:00"},"s":"I",  "c":"STORAGE",  "id":22321,   "ctx":"SignalHandler","msg":"Finished shutting down journal flusher thread"}
+{"t":{"$date":"2024-05-22T19:16:49.612+00:00"},"s":"I",  "c":"STORAGE",  "id":22322,   "ctx":"SignalHandler","msg":"Shutting down checkpoint thread"}
+{"t":{"$date":"2024-05-22T19:16:49.612+00:00"},"s":"I",  "c":"STORAGE",  "id":22323,   "ctx":"SignalHandler","msg":"Finished shutting down checkpoint thread"}
+{"t":{"$date":"2024-05-22T19:16:49.613+00:00"},"s":"I",  "c":"STORAGE",  "id":22261,   "ctx":"SignalHandler","msg":"Timestamp monitor shutting down"}
+{"t":{"$date":"2024-05-22T19:16:49.615+00:00"},"s":"I",  "c":"STORAGE",  "id":20282,   "ctx":"SignalHandler","msg":"Deregistering all the collections"}
+{"t":{"$date":"2024-05-22T19:16:49.618+00:00"},"s":"I",  "c":"STORAGE",  "id":22372,   "ctx":"OplogVisibilityThread","msg":"Oplog visibility thread shutting down."}
+{"t":{"$date":"2024-05-22T19:16:49.623+00:00"},"s":"I",  "c":"STORAGE",  "id":22317,   "ctx":"SignalHandler","msg":"WiredTigerKVEngine shutting down"}
+{"t":{"$date":"2024-05-22T19:16:49.623+00:00"},"s":"I",  "c":"STORAGE",  "id":22318,   "ctx":"SignalHandler","msg":"Shutting down session sweeper thread"}
+{"t":{"$date":"2024-05-22T19:16:49.624+00:00"},"s":"I",  "c":"STORAGE",  "id":22319,   "ctx":"SignalHandler","msg":"Finished shutting down session sweeper thread"}
+{"t":{"$date":"2024-05-22T19:16:49.626+00:00"},"s":"I",  "c":"STORAGE",  "id":4795902, "ctx":"SignalHandler","msg":"Closing WiredTiger","attr":{"closeConfig":"leak_memory=true,"}}
+{"t":{"$date":"2024-05-22T19:16:49.633+00:00"},"s":"I",  "c":"STORAGE",  "id":22430,   "ctx":"SignalHandler","msg":"WiredTiger message","attr":{"message":"[1716405409:633146][1818:0x7fe281d05700], WT_CONNECTION.close: [WT_VERB_RECOVERY_PROGRESS] shutdown rollback to stable has successfully finished and ran for 4 milliseconds"}}
+{"t":{"$date":"2024-05-22T19:16:49.649+00:00"},"s":"I",  "c":"STORAGE",  "id":22430,   "ctx":"SignalHandler","msg":"WiredTiger message","attr":{"message":"[1716405409:649422][1818:0x7fe281d05700], close_ckpt: [WT_VERB_CHECKPOINT_PROGRESS] saving checkpoint snapshot min: 1571, snapshot max: 1571 snapshot count: 0, oldest timestamp: (1716405103, 1) , meta checkpoint timestamp: (1716405403, 1) base write gen: 33"}}
+{"t":{"$date":"2024-05-22T19:16:49.682+00:00"},"s":"I",  "c":"STORAGE",  "id":22430,   "ctx":"SignalHandler","msg":"WiredTiger message","attr":{"message":"[1716405409:682291][1818:0x7fe281d05700], WT_CONNECTION.close: [WT_VERB_RECOVERY_PROGRESS] shutdown checkpoint has successfully finished and ran for 48 milliseconds"}}
+{"t":{"$date":"2024-05-22T19:16:49.683+00:00"},"s":"I",  "c":"STORAGE",  "id":22430,   "ctx":"SignalHandler","msg":"WiredTiger message","attr":{"message":"[1716405409:682992][1818:0x7fe281d05700], WT_CONNECTION.close: [WT_VERB_RECOVERY_PROGRESS] shutdown was completed successfully and took 55ms, including 4ms for the rollback to stable, and 48ms for the checkpoint."}}

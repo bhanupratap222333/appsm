@@ -33,3 +33,14 @@
 2024-05-22 19:06:06,739 INFO success: temporal entered RUNNING state, process has stayed up for > than 10 seconds (startsecs)
 2024-05-22 19:06:35,519 INFO reaped unknown pid 104
 2024-05-22 19:06:40,517 INFO success: backend entered RUNNING state, process has stayed up for > than 45 seconds (startsecs)
+2024-05-22 19:16:39,884 WARN received SIGTERM indicating exit request
+2024-05-22 19:16:39,890 INFO waiting for stdout, postgres, redis, keycloak, mongodb, temporal, rts, backend, editor to die
+2024-05-22 19:16:39,905 INFO stopped: editor (exit status 2)
+2024-05-22 19:16:43,540 INFO waiting for stdout, postgres, redis, keycloak, mongodb, temporal, rts, backend to die
+2024-05-22 19:16:45,542 INFO reaped unknown pid 2070
+2024-05-22 19:16:46,599 INFO stopped: backend (exit status 143)
+2024-05-22 19:16:46,602 INFO waiting for stdout, postgres, redis, keycloak, mongodb, temporal, rts to die
+2024-05-22 19:16:48,383 INFO stopped: rts (exit status 0)
+2024-05-22 19:16:49,418 WARN stdout: event caused an error
+2024-05-22 19:16:49,424 WARN stdout: has entered the UNKNOWN state and will no longer receive events, this usually indicates the process violated the eventlistener protocol
+2024-05-22 19:16:49,435 INFO stopped: temporal (exit status 0)
